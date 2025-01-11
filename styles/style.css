@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.fira-sans-regular {
+  font-family: "Fira Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fira-sans-medium {
+  font-family: "Fira Sans", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.fira-sans-bold {
+  font-family: "Fira Sans", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+body {
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  font-family: "Fira Sans", serif;
+}
+
+header {
+  width: 1600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Nav Styles */
+.navbar {
+  width: 1280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.navbar .logo {
+  font-family: "Fira Sans", serif;
+  font-size: 32px;
+  color: #0e0e0e;
+}
+
+.navbar .btn-secondary {
+  font-family: "Fira Sans", serif;
+  color: #006a50;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 8px;
+  border: solid 1px #006a50;
+  padding: 15px 30px;
+  transition: 0.3s;
+  background-color: #ffffff;
+}
+
+.navbar .btn-secondary:hover {
+  background-color: #006a50;
+  color: #ffffff;
+}
+
+/* Banner Styles */
+.banner {
+  width: 1170px;
+  height: 560px;
+  background-color: #c6e4d6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 24px;
+  padding: 0px 60px;
+}
+
+.banner-content {
+  width: 622px;
+}
+.banner-content .sub-title {
+  font-size: 24px;
+  color: rgba(14, 14, 14, 0.5);
+  margin-bottom: 16px;
+}
+
+.banner-content .title {
+  font-size: 57px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  color: #0e0e0e;
+}
+
+.banner-content .btn-primary {
+  background-color: #006a50;
+  font-family: "Fira Sans", serif;
+  font-size: 18px;
+  border-radius: 8px;
+  color: #ffffff;
+  padding: 17px 34px;
+  border: 0;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.banner-content .btn-primary:hover {
+  background-color: #002b21;
+}
+
+.banner-content .banner-img {
+  height: 400px;
+}
