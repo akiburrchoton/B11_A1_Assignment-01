@@ -273,7 +273,7 @@ header {
 .recent-news {
   display: flex;
   justify-content: center;
-  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 .recent-news .info {
@@ -310,6 +310,10 @@ header {
 .news-cards .news-card-item .news-image {
   height: 305px;
   border-radius: 24px;
+}
+
+.news-cards .news-card-item:last-child {
+  margin: 0;
 }
 
 .news-cards .news-card-item .news-card-content .card-content-title {
@@ -355,7 +359,7 @@ header {
 .donate-today {
   display: flex;
   justify-content: center;
-  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 .donate-today .donate-info {
@@ -405,7 +409,6 @@ header {
 }
 
 .other-amount-input {
-  width: 100%;
 }
 
 .donate-form {
@@ -413,7 +416,7 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 0 125px;
+  padding: 0 165px;
 }
 
 .donate-form input[type="text"] {
@@ -444,11 +447,11 @@ header {
 .newsletter {
   display: flex;
   justify-content: center;
-  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 .newsletter .container {
-  width: 830px;
+  width: 760px;
   display: flex;
   flex-direction: column;
   justify-content: center;
