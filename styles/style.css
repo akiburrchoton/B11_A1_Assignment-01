@@ -21,6 +21,7 @@
 body {
   background-color: #f5f5f5;
   margin: 0;
+  font-family: "Fira Sans", serif;
 }
 
 h1,
@@ -33,6 +34,10 @@ p {
   margin: 0;
   font-family: "Fira Sans", serif;
   color: #0e0e0e;
+}
+
+.container {
+  width: 1280px;
 }
 
 header {
@@ -128,10 +133,6 @@ header {
   margin-bottom: 80px;
 }
 
-.vision-of-future .container {
-  width: 1280px;
-}
-
 .vision-of-future .info {
   margin-bottom: 32px;
 }
@@ -160,7 +161,6 @@ header {
   padding: 32px;
   border-radius: 16px;
   width: 410px;
-  /* height: 325px; */
 }
 
 .vision-cards .blue-card {
@@ -200,12 +200,20 @@ header {
   font-size: 16px;
 }
 
+.vision-cards .btn-blue:hover {
+  background-color: #2b69d4;
+}
+
 .vision-cards .btn-green {
   background-color: #09a15c;
   padding: 11px 20px;
   color: #ffffff;
   font-size: 16px;
   margin-top: 24px;
+}
+
+.vision-cards .btn-green:hover {
+  background-color: #038249;
 }
 
 .vision-cards .btn-yellow {
@@ -215,14 +223,15 @@ header {
   font-size: 16px;
 }
 
+.vision-cards .btn-yellow:hover {
+  background-color: #dba017;
+}
+
 /* Recent News Style  */
 .recent-news {
   display: flex;
   justify-content: center;
-}
-
-.recent-news .container {
-  width: 1280px;
+  margin-top: 80px;
 }
 
 .recent-news .info {
@@ -230,7 +239,6 @@ header {
 }
 
 .recent-news .info .recent-news-title {
-  font-family: "Fira Sans", serif;
   font-size: 40px;
   font-weight: 700;
   color: #0e0e0e;
@@ -241,9 +249,6 @@ header {
   color: rgba(14, 14, 14, 0.7);
   font-size: 16px;
   line-height: 24px;
-}
-
-.news-cards {
 }
 
 .news-cards .news-card-item {
@@ -299,7 +304,94 @@ header {
 .news-cards .news-card-item .btn-primary {
   padding: 13px 26px;
 }
+
 .news-cards .news-card-item .btn-primary:hover {
+  background-color: #014031;
+}
+
+/* Donate Today Style  */
+.donate-today {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.donate-today .donate-info {
+  margin: 0 88px 32px;
+  text-align: center;
+}
+
+.donate-today .donate-info .donate-title {
+  font-size: 40px;
+  font-weight: 700;
+  color: #0e0e0e;
+  margin-bottom: 24px;
+}
+.donate-today .donate-info .donate-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.donate-today .donate-money-cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 105px;
+}
+.donate-today .donate-money-cards .donate-money-card-item {
+  padding: 40px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  border: solid 1px rgba(14, 14, 14, 0.15);
+  margin-bottom: 32px;
+  transition: 0.3s;
+}
+
+.donate-today .donate-money-cards .active {
+  background-color: #c6e4d6;
+}
+
+.donate-today .donate-money-cards .donate-money-card-item:hover {
+  background-color: #c6e4d6;
+}
+
+.donate-today .donate-money-cards .donate-money-card-item .donate-amount {
+  font-size: 40px;
+  color: rgba(14, 14, 14, 0.7);
+}
+
+.other-amount-input {
+  width: 100%;
+}
+
+.donate-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 125px;
+}
+
+.donate-form input[type="text"] {
+  width: 100%;
+  text-align: center;
+  color: rgba(14, 14, 14, 0.163);
+  padding: 20px 40px;
+  border: 0;
+  border-bottom: solid 1px rgba(14, 14, 14, 0.15);
+  margin-bottom: 32px;
+  font-size: 20px;
+  font-family: "Fira Sans", serif;
+}
+.donate-form ::placeholder {
+  /* Most modern browsers support this now. */
+  color: rgba(14, 14, 14, 0.163);
+}
+.donate-form .btn-primary {
+  padding: 17px 34px;
+}
+
+.donate-form .btn-primary:hover {
   background-color: #014031;
 }
 
